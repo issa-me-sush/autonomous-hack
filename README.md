@@ -1,4 +1,6 @@
-# CLE hello template
+# CLE  for Automated AI content moderation with zkAutomation
+### decentralized moderation of AI generated content that is fully transparent and carried out by zkOracles powered by ora cle and AI oracle, can be further extended to any kind of DAO model for decentralized AI content generation with safeguards for the kind of content generated instead of having a central body censoring in a secret manner like OpenAI/Google
+
 
 ## Usage CLI
 
