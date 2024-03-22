@@ -1,0 +1,20 @@
+specVersion: 0.0.2
+apiVersion: 0.0.2
+name: content_moderation
+description: "Content moderation system integrating with smart contracts for automated moderation."
+repository: https://github.com/your-github-repo/content-moderation
+dataSources:
+  - kind: ethereum
+    network: sepolia
+    event:
+      - address: "0x7769A74A69e2c5F1dABa35E972D56Bc341b39477"  
+        events: 
+          - "ContentReceived(uint256,string,bool)" 
+mapping:
+  language: wasm/assemblyscript
+  file: ./mapping.ts
+  handler: handleBlocks
+dataDestinations:
+  - kind: ethereum
+    network: sepolia
+    address: "0x7769A74A69e2c5F1dABa35E972D56Bc341b39477"  
