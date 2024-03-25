@@ -3,6 +3,7 @@
 
 contract address on sepolia - 0x7769A74A69e2c5F1dABa35E972D56Bc341b39477
 
+![Architecture and Development Flow](https://cdn.discordapp.com/attachments/785528427398430780/1221735618082639932/image.png?ex=6613a8f6&is=660133f6&hm=bc15ddcd8df21c7a14ab8fdfb56a456a87f11beb2fa55a346489c4bba8a27072&)
 
 ## Usage CLI
 
